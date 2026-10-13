@@ -252,7 +252,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/enquiries",
+        "https://qube-cinema-backend.onrender.com/api/enquiries",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -295,7 +295,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/chat",
+        "https://qube-cinema-backend.onrender.com/api/chat",
         {
           method: "POST",
           headers: {

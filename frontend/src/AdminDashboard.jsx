@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./AdminDashboard.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://qube-cinema-backend.onrender.com";
 
 function AdminDashboard() {
   const [token, setToken] = useState("");
